@@ -1,7 +1,7 @@
 
 # 🔥 Instalar VIRTUAL apta para el MU.
 
-### Requisitos: 
+## Requisitos: 
 * Última versión de Windows 10 ISO [(Descargar acá)](https://www.microsoft.com/en-gb/software-download/windows10ISO) / Windows 11 ISO [(Descargar acá)](https://www.microsoft.com/en-us/software-download/windows11) - 
 * Activar Hyper V en W10/W11 (requiere reiniciar).  
 Sino ejecutar este comando en cmd o powershell:    
@@ -11,13 +11,25 @@ Sino ejecutar este comando en cmd o powershell:
 
 ### ⚠️ Todos los comandos se ejecutan con permisos de admin.  
 
-### Instrucciones:  
-1. Descargar el repositorio (clonarlo en tu pc) o conseguir los archivos (zip/rar).
-2. Ejecutar en powershell -> "PreChecks.ps1" para obtener el nombre de la GPU, guardarlo.
-4. Ejecutar en powershell -> "Set-ExecutionPolicy unrestricted".
-3. Ejecutar en powershell -> "notepad CopyFilesToVM.ps1" y editar valores (path de la iso, path de úbicacion de disco virtual, cantidad de ram, nucleos, etc).
-4. Ejecutar en powershell -> "CopyFilesToVM.ps1".
-5. Luego en la pc descargar Microsoft Visual C++ All in one para poder ejecutar MU.
+## Instrucciones:   
+
+### Citado lo que debe ir en Powershell  
+1. Descargar el repositorio (clonarlo en tu pc) o conseguir los archivos (zip/rar).  
+> git clone https://github.com/96danielbaez/HyperV  
+
+2. Para obtener el nombre de la GPU, guardarlo.  
+> PreChecks.ps1 
+
+4. Ejecutar en powershell para evitar cualquier problema con el script.   
+> Set-ExecutionPolicy unrestricted".  
+
+3. Ejecutar y editar valores (path de la iso, path de úbicacion de disco virtual, cantidad de ram, nucleos, etc).  
+> notepad CopyFilesToVM.ps1"  
+
+4. Ya se puede ejecutar el script para que empiece el proceso de crear la virtual y setearla.  
+> CopyFilesToVM.ps1   
+
+5. Luego finalizado, en la virtual descargar Microsoft Visual C++ All in one para poder ejecutar MU.  
 
 ### 💥 Actualizar gráfica en la virtual, luego de una actualización en la PC.
 Es importante actualizar los controladores de la GPU de la máquina virtual después de haber actualizado los controladores de la GPU del host.
