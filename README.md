@@ -33,9 +33,10 @@ https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-al
 
 # 💥 Actualizar gráfica en la virtual, luego de una actualización en la PC.
 Es importante actualizar los controladores de la GPU de la máquina virtual después de haber actualizado los controladores de la GPU del host.
-1. Reiniciar la PC luego de actualizar los drivers en el host.  
-2. Ir a la ubicación donde tenemos los archivos del script y abrimos el powershell en esa ubicación o ubicarse allí con "cd".  
-3. Ejecutar ```Update-VMGpuPartitionDriver.ps1 -VMName "Nombre de la virtual" -GPUName "Nombre de la GPU"```. (AUTO en w10)  
+* Reiniciar la PC luego de actualizar los drivers en el host.  
+* Ir a la ubicación donde tenemos los archivos del script y abrimos el powershell en esa ubicación o ubicarse allí con "cd".  
+* Ejecutar: **Update-VMGpuPartitionDriver.ps1 -VMName "Nombre de la virtual" -GPUName "Nombre de la GPU"**.  
+**AUTO** para W10, o el nombre de tu GPU que suelta el otro script, por ejemplo **NVIDIA GeForce RTX 2060**.  
 
 ### 🤔 Valores de CopyFilesToVM:  
   ```VMName = "VM1"``` - Nombre de la virtual  
