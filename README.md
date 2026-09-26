@@ -7,7 +7,7 @@
 Sino ejecutar este comando en cmd o powershell:    
 **Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All**  
 
-**Importante** (la versión que es HOME es necesario instalarlo manual con otro script).  
+**Importante:** la versión que es HOME es necesario instalarlo manual con otro script.  
 
 ### ⚠️ Todos los comandos se ejecutan con permisos de admin.  
 
@@ -19,13 +19,13 @@ Sino ejecutar este comando en cmd o powershell:
 4. Ejecutar en powershell -> "CopyFilesToVM.ps1".
 5. Luego en la pc descargar Microsoft Visual C++ All in one para poder ejecutar MU.
 
-### Actualizar gráfica en la virtual, luego de que se actualiza en el host (cuando se corrompe):
+### 💥 Actualizar gráfica en la virtual, luego de una actualización en la PC.
 Es importante actualizar los controladores de la GPU de la máquina virtual después de haber actualizado los controladores de la GPU del host.
 1. Reiniciar la PC luego de actualizar los drivers en el host.  
-2. Ir a la ubicación donde tenemos los archivos del script y abrimos el powershell en esa ubicación o ubicarse allí con "cd".
-3. Ejecutar ```Update-VMGpuPartitionDriver.ps1 -VMName "Nombre de la virtual" -GPUName "Nombre de la GPU"```. (AUTO en w10)
+2. Ir a la ubicación donde tenemos los archivos del script y abrimos el powershell en esa ubicación o ubicarse allí con "cd".  
+3. Ejecutar ```Update-VMGpuPartitionDriver.ps1 -VMName "Nombre de la virtual" -GPUName "Nombre de la GPU"```. (AUTO en w10)  
 
-### Valores
+### 🤔 Valores de CopyFilesToVM:  
   ```VMName = "VM1"``` - Nombre de la virtual  
   ```SourcePath = "C:\Users\Besta\Downloads\Win11_English_x64.iso"``` - Path de ISO de Windows  
   ```Edition    = 6``` - Dejalo como 6, esto significa windows 10 / 11 pro  
@@ -39,7 +39,7 @@ Es importante actualizar los controladores de la GPU de la máquina virtual desp
   ```UnattendPath = "$PSScriptRoot"+"\autounattend.xml"``` - No tocar   
   ```GPUName = "AUTO"``` - Nombre GPU o AUTO (W10)  
   ```GPUResourceAllocationPercentage = 50``` - Porcentaje de GPU  
-  ```Username = "Virtual1"``` - Usuario dentro de la virtual   
-  ```Password = "VM1"``` - Password VM1  
+  ```Username = "Virtual1"``` - Usuario     
+  ```Password = "Virtual1"``` - Password  
   ```Autologon = "true"```- Iniciar automaticamente  
 

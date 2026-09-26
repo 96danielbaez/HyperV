@@ -1,5 +1,5 @@
 ﻿$params = @{
-    VMName = "GPUPV"
+    VMName = "VM1"
     SourcePath = "C:\Users\Besta\Downloads\Win11_English_x64.iso"
     Edition    = 6
     VhdFormat  = "VHDX"
