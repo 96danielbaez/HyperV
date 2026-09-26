@@ -22,7 +22,8 @@ Sino ejecutar este comando en cmd o powershell:
 * Para obtener el nombre de la GPU, guardarlo: **.\PreChecks.ps1**  
 ![Obteniendo nombre de GPU](https://github.com/96danielbaez/HyperV/blob/main/User/imagenes/guardar%20nombre%20gpu.png)    
 
-* Para evitar cualquier problema con el script: **Set-ExecutionPolicy unrestricted**    
+* Para evitar cualquier problema con el script: **Set-ExecutionPolicy unrestricted**   
+![Imagen ejecutando el script](https://github.com/96danielbaez/HyperV/blob/main/User/imagenes/politica.png)   
 
 * Organizar las carpetas para luego copiar el path (ejemplo).   
 ![Imagen de ejemplo](https://github.com/96danielbaez/HyperV/blob/main/User/imagenes/ejemplo%20carpetas.png)   
