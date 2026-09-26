@@ -31,7 +31,8 @@ Sino ejecutar este comando en cmd o powershell:
 * Ejecutar y editar valores de la virtual (path de la iso, path de úbicacion de disco virtual, cantidad de ram, nucleos, etc): **notepad CopyFilesToVM.ps1**  
 ![Editar script con los parametros de la virtual](https://github.com/96danielbaez/HyperV/blob/main/User/imagenes/notepad.png)   
 
-* Ya se puede ejecutar el script para que empiece el proceso de creación y seteo: **.\CopyFilesToVM.ps1**.   
+* Ya se puede ejecutar el script para que empiece el proceso de creación y seteo: **.\CopyFilesToVM.ps1**.  
+![Copiando archivos](https://github.com/96danielbaez/HyperV/blob/main/User/imagenes/copiar%20archivos.png)   
 
 * Luego finalizado, en la virtual descargar **Microsoft Visual C++ All in one** para poder ejecutar MU.  
 https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/   
