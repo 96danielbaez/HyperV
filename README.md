@@ -67,3 +67,4 @@ Es importante actualizar los controladores de la GPU de la máquina virtual desp
   ```Password = "Virtual1"``` - Password  
   ```Autologon = "true"```- Iniciar automaticamente  
 
+### Desactivar la sesión mejorada, porque causa problemas.
