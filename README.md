@@ -20,20 +20,20 @@ Es importante actualizar los controladores de la GPU de la máquina virtual desp
 3. Ejecutar ```Update-VMGpuPartitionDriver.ps1 -VMName "Nombre de la virtual" -GPUName "Nombre de la GPU"```. (AUTO en w10)
 
 ### Valores
-  ```VMName = "VM1"``` - Nombre de la maquina virtual por defecto.
-  ```SourcePath = "C:\Users\Besta\Downloads\Win11_English_x64.iso"``` - Path de ISO de Windows, donde lo descargaste o donde lo ubicaste.
+  ```VMName = "VM1"``` - Nombre de la virtual
+  ```SourcePath = "C:\Users\Besta\Downloads\Win11_English_x64.iso"``` - Path de ISO de Windows
   ```Edition    = 6``` - Dejalo como 6, esto significa windows 10 / 11 pro
   ```VhdFormat  = "VHDX"``` - No tocar  
   ```DiskLayout = "UEFI"``` - No tocar   
   ```SizeBytes  = 30gb``` - 25-30 GB aprox  
-  ```MemoryAmount = 4GB``` - Cantidad de RAM, le suelo poner 4GB (luego se puede modificar, poniendo mínimo 1024 - 4096 máximo).  
-  ```CPUCores = 2``` - Cantidad de nucleos, le suelo poner 2 (luego se puede modificar).
-  ```NetworkSwitch = "Default Switch"``` - Dejar por defecto para tener internet.
-  ```VHDPath = "C:\Users\Public\Documents\Hyper-V\Virtual Hard Disks\"``` - Path de la carpeta donde pondremos el disco virtual.  
+  ```MemoryAmount = 4GB``` - Cantidad de RAM  
+  ```CPUCores = 2``` - Cantidad de nucleos
+  ```NetworkSwitch = "Default Switch"``` - No tocar
+  ```VHDPath = "C:\Users\Public\Documents\Hyper-V\Virtual Hard Disks\"``` - Path del disco virtual.  
   ```UnattendPath = "$PSScriptRoot"+"\autounattend.xml"``` - No tocar  
-  ```GPUName = "AUTO"``` - Colocar el nombre de la GPU obtenido previamente con "PreChecks.ps1" en W11, sino si utilizas W10 dejar en AUTO.
-  ```GPUResourceAllocationPercentage = 50``` - Porcentaje de GPU que puede usar la virtual.  
+  ```GPUName = "AUTO"``` - Nombre GPU o AUTO (W10)
+  ```GPUResourceAllocationPercentage = 50``` - Porcentaje de GPU 
   ```Username = "Virtual1"``` - Usuario dentro de la virtual  
   ```Password = "VM1"``` - Password VM1
-  ```Autologon = "true"```- Iniciar automaticamente cuando se inicia el host.
+  ```Autologon = "true"```- Iniciar automaticamente
 
