@@ -28,7 +28,7 @@ Sino ejecutar este comando en cmd o powershell:
 * Organizar las carpetas para luego copiar el path (ejemplo).   
 ![Imagen de ejemplo](https://github.com/96danielbaez/HyperV/blob/main/User/imagenes/ejemplo%20carpetas.png)   
 
-* Ejecutar y editar valores de la virtual (path de la iso, path de úbicacion de disco virtual, cantidad de ram, nucleos, etc): **notepad CopyFilesToVM.ps1**  
+* Ejecutar, editar los valores (path de la iso, path de úbicacion de disco virtual, cantidad de ram, nucleos, etc) y luego guardar : **notepad CopyFilesToVM.ps1**  
 ![Editar script con los parametros de la virtual](https://github.com/96danielbaez/HyperV/blob/main/User/imagenes/notepad.png)   
 
 * Ya se puede ejecutar el script para que empiece el proceso de creación y seteo: **.\CopyFilesToVM.ps1**.  
@@ -37,6 +37,8 @@ Sino ejecutar este comando en cmd o powershell:
 * Luego finalizado, en la virtual descargar **Microsoft Visual C++ All in one** para poder ejecutar MU.  
 https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/   
 
+* Listo papu, muleando xD
+![Muleando a tope](https://github.com/96danielbaez/HyperV/blob/main/User/imagenes/copiar%20muleando.png)  
 
 # 💥 Actualizar gráfica en la virtual, luego de una actualización en la PC.
 Es importante actualizar los controladores de la GPU de la máquina virtual después de haber actualizado los controladores de la GPU del host.
