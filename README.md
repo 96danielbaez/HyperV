@@ -29,6 +29,7 @@ Sino ejecutar este comando en cmd o powershell:
 ![Imagen de ejemplo](https://github.com/96danielbaez/HyperV/blob/main/User/imagenes/ejemplo%20carpetas.png)   
 
 * Ejecutar y editar valores de la virtual (path de la iso, path de úbicacion de disco virtual, cantidad de ram, nucleos, etc): **notepad CopyFilesToVM.ps1**  
+![Editar script con los parametros de la virtual](https://github.com/96danielbaez/HyperV/blob/main/User/imagenes/notepad.png)   
 
 * Ya se puede ejecutar el script para que empiece el proceso de creación y seteo: **.\CopyFilesToVM.ps1**.   
 
