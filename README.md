@@ -38,7 +38,7 @@ Sino ejecutar este comando en cmd o powershell:
 https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/   
 
 * Listo papu, muleando xD
-![Muleando a tope](https://github.com/96danielbaez/HyperV/blob/main/User/imagenes/copiar%20muleando.png)  
+![Muleando a tope](https://github.com/96danielbaez/HyperV/blob/main/User/imagenes/muleando.png)  
 
 # 💥 Actualizar gráfica en la virtual, luego de una actualización en la PC.
 Es importante actualizar los controladores de la GPU de la máquina virtual después de haber actualizado los controladores de la GPU del host.
