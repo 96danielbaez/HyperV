@@ -37,6 +37,8 @@ Sino ejecutar este comando en cmd o powershell:
 * Luego finalizado, en la virtual descargar **Microsoft Visual C++ All in one** para poder ejecutar MU.  
 https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/   
 
+![Imagen Visual C++](https://github.com/96danielbaez/HyperV/blob/main/User/imagenes/visualc.png) 
+
 * Listo papu, muleando xD
 ![Muleando a tope](https://github.com/96danielbaez/HyperV/blob/main/User/imagenes/muleando.png)  
 
