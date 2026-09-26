@@ -20,6 +20,7 @@ Sino ejecutar este comando en cmd o powershell:
 * O sino descargalo desde **Google Drive** desde acá: [Script Hyper V](https://drive.google.com/file/d/1KyrJjDTal2zqMyHe7r0jFtiqa8XWiM-k/view?usp=drive_link)  
 
 * Para obtener el nombre de la GPU, guardarlo: **.\PreChecks.ps1**  
+![Obteniendo nombre de GPU](https://github.com/96danielbaez/HyperV/blob/main/User/imagenes/guardar%20nombre%20gpu.png)    
 
 * Para evitar cualquier problema con el script: **Set-ExecutionPolicy unrestricted**    
 
