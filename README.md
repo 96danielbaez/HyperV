@@ -24,7 +24,7 @@ Sino ejecutar este comando en cmd o powershell:
 * Para evitar cualquier problema con el script: **Set-ExecutionPolicy unrestricted**    
 
 * Organizar las carpetas para luego copiar el path (ejemplo).   
-![Imagen de ejemplo](https://prnt.sc/Qy62MVYqe80x)   
+![Imagen de ejemplo](https://github.com/96danielbaez/HyperV/blob/main/User/imagenes/ejemplo%20carpetas.png)   
 
 * Ejecutar y editar valores de la virtual (path de la iso, path de úbicacion de disco virtual, cantidad de ram, nucleos, etc): **notepad CopyFilesToVM.ps1**  
 
