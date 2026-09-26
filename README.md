@@ -1,9 +1,13 @@
 
+# Instalar VIRTUAL apta para el MU.
 
 ### Requisitos: 
-* Última versión de Windows 10 ISO [Descargar Aquí](https://www.microsoft.com/en-gb/software-download/windows10ISO) / Windows 11 ISO [Descargar Aquí](https://www.microsoft.com/en-us/software-download/windows11) - 
-* Virtualización activada en BIOS Y [Hyper-V activado](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v) en Windows 10/ 11. (requiere reiniciar).  
-* Todos los scripts se ejecutan en Powershell con permisos de admin. 
+* Última versión de Windows 10 ISO [(Descargar acá)](https://www.microsoft.com/en-gb/software-download/windows10ISO) / Windows 11 ISO [(Descargar acá)](https://www.microsoft.com/en-us/software-download/windows11) - 
+* Virtualización activada en BIOS Y [(HYPER V ACTIVADO)](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v) en Windows 10/ 11. (requiere reiniciar).
+Sino ejecutar este comando en cmd o powershell.
+**Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All**  
+
+### Todos los comandos se ejecutan con permisos de admin.
 
 ### Instrucciones:
 1. Descargar el repo o conseguir los archivos.
