@@ -19,7 +19,7 @@ Sino ejecutar este comando en cmd o powershell:
 
 * O sino descargalo desde **Google Drive** desde acá: [Script Hyper V](https://drive.google.com/file/d/1KyrJjDTal2zqMyHe7r0jFtiqa8XWiM-k/view?usp=drive_link)  
 
-* Para obtener el nombre de la GPU, guardarlo: **PreChecks.ps1**  
+* Para obtener el nombre de la GPU, guardarlo: **.\PreChecks.ps1**  
 
 * Para evitar cualquier problema con el script: **Set-ExecutionPolicy unrestricted**    
 
@@ -28,7 +28,7 @@ Sino ejecutar este comando en cmd o powershell:
 
 * Ejecutar y editar valores de la virtual (path de la iso, path de úbicacion de disco virtual, cantidad de ram, nucleos, etc): **notepad CopyFilesToVM.ps1**  
 
-* Ya se puede ejecutar el script para que empiece el proceso de creación y seteo: **CopyFilesToVM.ps1**.   
+* Ya se puede ejecutar el script para que empiece el proceso de creación y seteo: **.\CopyFilesToVM.ps1**.   
 
 * Luego finalizado, en la virtual descargar **Microsoft Visual C++ All in one** para poder ejecutar MU.  
 https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/   
