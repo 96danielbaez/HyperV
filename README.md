@@ -14,7 +14,7 @@ Sino ejecutar este comando en cmd o powershell:
 
 ### Instrucciones:   
 
-### Citado lo que debe ir en Powershell  
+### En negrita los comandos que deben ir en Powershell  
 * Clonar el repositorio: **git clone https://github.com/96danielbaez/HyperV**  
 
 * O sino descargalo desde **Google Drive** desde acá: [Script Hyper V](https://drive.google.com/file/d/1KyrJjDTal2zqMyHe7r0jFtiqa8XWiM-k/view?usp=drive_link)  
