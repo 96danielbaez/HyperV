@@ -7,11 +7,12 @@
 Sino ejecutar este comando en cmd o powershell:    
 **Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All**  
 
-**Importante:** la versión que es HOME es necesario instalarlo manual con otro script.  
+**Importante:** 
 
-### ⚠️ Todos los comandos se ejecutan con permisos de admin.  
+La versión que es **Windows Home** es necesario instalarlo manual con otro script.  
+⚠️ Todos los comandos se ejecutan con permisos de admin.   
 
-## Instrucciones:   
+### Instrucciones:   
 
 ### Citado lo que debe ir en Powershell  
 1. Descargar el repositorio (clonarlo en tu pc) o conseguir los archivos (zip/rar).  
@@ -21,10 +22,10 @@ Sino ejecutar este comando en cmd o powershell:
 > PreChecks.ps1 
 
 4. Ejecutar en powershell para evitar cualquier problema con el script.   
-> Set-ExecutionPolicy unrestricted".  
+> Set-ExecutionPolicy unrestricted  
 
 3. Ejecutar y editar valores (path de la iso, path de úbicacion de disco virtual, cantidad de ram, nucleos, etc).  
-> notepad CopyFilesToVM.ps1"  
+> notepad CopyFilesToVM.ps1   
 
 4. Ya se puede ejecutar el script para que empiece el proceso de crear la virtual y setearla.  
 > CopyFilesToVM.ps1   
