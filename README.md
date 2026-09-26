@@ -19,7 +19,7 @@ Sino ejecutar este comando en cmd o powershell:
 
 * O sino descargalo desde **Google Drive** desde acá: [Script Hyper V](https://drive.google.com/file/d/1KyrJjDTal2zqMyHe7r0jFtiqa8XWiM-k/view?usp=drive_link)  
 
-* Para obtener el nombre de la GPU, guardarlo: **.\PreChecks.ps1**  
+* Obtener el nombre de la GPU, y guardarlo para usarlo más adelante: **.\PreChecks.ps1**  
 ![Obteniendo nombre de GPU](https://github.com/96danielbaez/HyperV/blob/main/User/imagenes/guardar%20nombre%20gpu.png)    
 
 * Para evitar cualquier problema con el script: **Set-ExecutionPolicy unrestricted**   
@@ -45,7 +45,7 @@ Es importante actualizar los controladores de la GPU de la máquina virtual desp
 * Ejecutar: **Update-VMGpuPartitionDriver.ps1 -VMName "Nombre de la virtual" -GPUName "Nombre de la GPU"**.  
 **AUTO** para W10, o el nombre de tu GPU que suelta el otro script, por ejemplo **NVIDIA GeForce RTX 2060**.  
 
-### 🤔 Valores de CopyFilesToVM:  
+# 🤔 Valores de CopyFilesToVM:  
   ```VMName = "VM1"``` - Nombre de la virtual  
   ```SourcePath = "C:\Users\Besta\Downloads\Win11_English_x64.iso"``` - Path de ISO de Windows  
   ```Edition    = 6``` - Dejalo como 6, esto significa windows 10 / 11 pro  
