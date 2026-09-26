@@ -15,26 +15,27 @@ Sino ejecutar este comando en cmd o powershell:
 ### Instrucciones:   
 
 ### Citado lo que debe ir en Powershell  
-1. Descargar el repositorio (clonarlo en tu pc)  
+* Descargar el repositorio (clonarlo en tu pc)  
 > git clone https://github.com/96danielbaez/HyperV  
 
-O sino descargalo desde **Google Drive** desde acá: [Script Hyper V](https://drive.google.com/file/d/19boXmTmfYzsZ1eS-Nal51tJmzpICH3JS/view?usp=drive_link)  
+* O sino descargalo desde **Google Drive** desde acá: [Script Hyper V](https://drive.google.com/file/d/19boXmTmfYzsZ1eS-Nal51tJmzpICH3JS/view?usp=drive_link)  
 
-2. Para obtener el nombre de la GPU, guardarlo.  
+* Para obtener el nombre de la GPU, guardarlo.  
 > PreChecks.ps1 
 
-4. Para evitar cualquier problema con el script.   
+* Para evitar cualquier problema con el script.   
 > Set-ExecutionPolicy unrestricted  
 
-3. Ejecutar y editar valores de la virtual (path de la iso, path de úbicacion de disco virtual, cantidad de ram, nucleos, etc).  
+* Ejecutar y editar valores de la virtual (path de la iso, path de úbicacion de disco virtual, cantidad de ram, nucleos, etc).  
 > notepad CopyFilesToVM.ps1   
 
-4. Ya se puede ejecutar el script para que empiece el proceso de creación y seteo.  
+* Ya se puede ejecutar el script para que empiece el proceso de creación y seteo.  
 > CopyFilesToVM.ps1   
 
-5. Luego finalizado, en la virtual descargar Microsoft Visual C++ All in one para poder ejecutar MU.  
+* Luego finalizado, en la virtual descargar Microsoft Visual C++ All in one para poder ejecutar MU.  
 
-### 💥 Actualizar gráfica en la virtual, luego de una actualización en la PC.
+
+# 💥 Actualizar gráfica en la virtual, luego de una actualización en la PC.
 Es importante actualizar los controladores de la GPU de la máquina virtual después de haber actualizado los controladores de la GPU del host.
 1. Reiniciar la PC luego de actualizar los drivers en el host.  
 2. Ir a la ubicación donde tenemos los archivos del script y abrimos el powershell en esa ubicación o ubicarse allí con "cd".  
