@@ -1,16 +1,18 @@
 
-# Instalar VIRTUAL apta para el MU.
+# 🔥 Instalar VIRTUAL apta para el MU.
 
 ### Requisitos: 
 * Última versión de Windows 10 ISO [(Descargar acá)](https://www.microsoft.com/en-gb/software-download/windows10ISO) / Windows 11 ISO [(Descargar acá)](https://www.microsoft.com/en-us/software-download/windows11) - 
-* Virtualización activada en BIOS Y [(HYPER V ACTIVADO)](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v) en Windows 10/ 11. (requiere reiniciar).  
-Sino ejecutar este comando en cmd o powershell.  
+* Activar Hyper V en W10/W11 (requiere reiniciar).  
+Sino ejecutar este comando en cmd o powershell:    
 **Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All**  
 
-### Todos los comandos se ejecutan con permisos de admin.
+**Importante** (la versión que es HOME es necesario instalarlo manual con otro script).  
 
-### Instrucciones:
-1. Descargar el repo o conseguir los archivos.
+### ⚠️ Todos los comandos se ejecutan con permisos de admin.  
+
+### Instrucciones:  
+1. Descargar el repositorio (clonarlo en tu pc) o conseguir los archivos (zip/rar).
 2. Ejecutar en powershell -> "PreChecks.ps1" para obtener el nombre de la GPU, guardarlo.
 4. Ejecutar en powershell -> "Set-ExecutionPolicy unrestricted".
 3. Ejecutar en powershell -> "notepad CopyFilesToVM.ps1" y editar valores (path de la iso, path de úbicacion de disco virtual, cantidad de ram, nucleos, etc).
