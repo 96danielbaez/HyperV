@@ -23,6 +23,9 @@ Sino ejecutar este comando en cmd o powershell:
 
 * Para evitar cualquier problema con el script: **Set-ExecutionPolicy unrestricted**    
 
+* Organizar las carpetas para luego copiar el path (ejemplo).   
+![Imagen de ejemplo](https://prnt.sc/Qy62MVYqe80x)   
+
 * Ejecutar y editar valores de la virtual (path de la iso, path de úbicacion de disco virtual, cantidad de ram, nucleos, etc): **notepad CopyFilesToVM.ps1**  
 
 * Ya se puede ejecutar el script para que empiece el proceso de creación y seteo: **CopyFilesToVM.ps1**.   
