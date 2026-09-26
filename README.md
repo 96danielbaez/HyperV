@@ -17,7 +17,7 @@ Sino ejecutar este comando en cmd o powershell:
 ### Citado lo que debe ir en Powershell  
 * Clonar el repositorio: **git clone https://github.com/96danielbaez/HyperV**  
 
-* O sino descargalo desde **Google Drive** desde acá: [Script Hyper V](https://drive.google.com/file/d/19boXmTmfYzsZ1eS-Nal51tJmzpICH3JS/view?usp=drive_link)  
+* O sino descargalo desde **Google Drive** desde acá: [Script Hyper V](https://drive.google.com/file/d/1KyrJjDTal2zqMyHe7r0jFtiqa8XWiM-k/view?usp=drive_link)  
 
 * Para obtener el nombre de la GPU, guardarlo: **PreChecks.ps1**  
 
