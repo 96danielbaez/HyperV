@@ -15,24 +15,20 @@ Sino ejecutar este comando en cmd o powershell:
 ### Instrucciones:   
 
 ### Citado lo que debe ir en Powershell  
-* Descargar el repositorio (clonarlo en tu pc)  
-> git clone https://github.com/96danielbaez/HyperV  
+* Clonar el repositorio: **git clone https://github.com/96danielbaez/HyperV**  
 
 * O sino descargalo desde **Google Drive** desde acá: [Script Hyper V](https://drive.google.com/file/d/19boXmTmfYzsZ1eS-Nal51tJmzpICH3JS/view?usp=drive_link)  
 
-* Para obtener el nombre de la GPU, guardarlo.  
-> PreChecks.ps1 
+* Para obtener el nombre de la GPU, guardarlo: **PreChecks.ps1**  
 
-* Para evitar cualquier problema con el script.   
-> Set-ExecutionPolicy unrestricted  
+* Para evitar cualquier problema con el script: **Set-ExecutionPolicy unrestricted**    
 
-* Ejecutar y editar valores de la virtual (path de la iso, path de úbicacion de disco virtual, cantidad de ram, nucleos, etc).  
-> notepad CopyFilesToVM.ps1   
+* Ejecutar y editar valores de la virtual (path de la iso, path de úbicacion de disco virtual, cantidad de ram, nucleos, etc): **notepad CopyFilesToVM.ps1**  
 
-* Ya se puede ejecutar el script para que empiece el proceso de creación y seteo.  
-> CopyFilesToVM.ps1   
+* Ya se puede ejecutar el script para que empiece el proceso de creación y seteo: **CopyFilesToVM.ps1**.   
 
-* Luego finalizado, en la virtual descargar Microsoft Visual C++ All in one para poder ejecutar MU.  
+* Luego finalizado, en la virtual descargar **Microsoft Visual C++ All in one** para poder ejecutar MU.  
+https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/   
 
 
 # 💥 Actualizar gráfica en la virtual, luego de una actualización en la PC.
